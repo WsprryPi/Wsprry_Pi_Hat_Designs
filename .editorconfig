@@ -1,0 +1,82 @@
+# Top-level EditorConfig file
+root = true
+
+# ============================================================
+# Global defaults
+# ============================================================
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# ============================================================
+# KiCad project files (YAML-like, indentation matters)
+# ============================================================
+[*.kicad_pro]
+indent_size = 2
+
+# ============================================================
+# KiCad schematic / PCB files
+# (Formatting is tool-driven; keep whitespace sane)
+# ============================================================
+[*.kicad_sch]
+indent_size = 2
+trim_trailing_whitespace = false
+
+[*.kicad_pcb]
+indent_size = 2
+trim_trailing_whitespace = false
+
+# ============================================================
+# Markdown documentation
+# ============================================================
+[*.md]
+indent_size = 2
+trim_trailing_whitespace = false
+
+# ============================================================
+# CSV, BOMs, pick-and-place
+# ============================================================
+[*.csv]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+
+# ============================================================
+# JSON / YAML (CI, scripts, metadata)
+# ============================================================
+[*.json]
+indent_size = 2
+
+[*.yml]
+indent_size = 2
+
+[*.yaml]
+indent_size = 2
+
+# ============================================================
+# Shell scripts
+# ============================================================
+[*.sh]
+indent_size = 4
+
+# ============================================================
+# Makefiles (tabs required)
+# ============================================================
+[Makefile]
+indent_style = tab
+
+# ============================================================
+# Python scripts
+# ============================================================
+[*.py]
+indent_size = 4
+
+# ============================================================
+# STEP export scripts
+# ============================================================
+[*.step]
+trim_trailing_whitespace = false
