@@ -1,0 +1,315 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A")
+	(title_block
+		(title "Raspberry Pi µHAT")
+		(date "2026-02-09")
+		(rev "0")
+		(company "Lee C. Bussy [AA0NT]")
+	)
+	(lib_symbols)
+	(text "Additional pin functions:\nhttps://pinout.xyz/"
+		(exclude_from_sim no)
+		(at 179.07 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f821f61c-6b6a-4864-ace3-a78a834a9305")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e81a1f-6f40-49b2-9fee-b48550879ece")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22648664-1591-4310-9fea-0061c6b90ee2")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254ba9c8-2681-4231-bcb1-45ea34371c45")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e9d38b-e49b-4074-9933-41785d1b5777")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a71f8d-3f0f-46f3-be7e-617b4b6ccc57")
+	)
+	(wire
+		(pts
+			(xy 157.48 101.6) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6170610e-bb86-4443-8733-3a35fcb68438")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2fa551-ec60-42cb-97ee-66c46d607cbb")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97617c86-d709-410b-be89-6fb637a16e9d")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f670c3cf-e8c2-4199-b4f3-22b06900760d")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f882c7ac-4d37-46c6-aa43-4fdc528f5bdb")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e51ff3-2a9e-4918-b9ec-6cbad19ee31d")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febceeaf-d9d9-4895-9c74-e1ddcdfda3fc")
+	)
+	(sheet
+		(at 114.3 88.9)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b22e560-1a25-41b6-8656-ff183b0e1117")
+		(property "Sheetname" "Raspberry Pi Header"
+			(at 114.3 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rpi_header.kicad_sch"
+			(at 114.3 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 133.35 91.44 0)
+			(uuid "d62fc103-6f52-45cc-ace5-b3fc685fd2ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID_SCL" bidirectional
+			(at 125.73 101.6 270)
+			(uuid "8778a604-b65b-46bb-bc10-090b338bf2e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" output
+			(at 114.3 91.44 180)
+			(uuid "ef30250d-fd3a-4461-9e12-01a5852a9fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SDA" bidirectional
+			(at 121.92 101.6 270)
+			(uuid "ac1b86d9-49f3-4603-90f0-b9af78c94c2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Raspberry Pi HAT EEPROM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 88.9)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd12af2d-310f-4190-9029-89b958d4c557")
+		(property "Sheetname" "ID EEPROM"
+			(at 146.05 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "id_eeprom.kicad_sch"
+			(at 146.05 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ID_3V3" input
+			(at 165.1 91.44 0)
+			(uuid "3738c34c-be01-4295-adee-6c7dc9a505e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID_SCL" bidirectional
+			(at 153.67 101.6 270)
+			(uuid "00452c6b-7233-4afc-b67f-8897c2a372d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_GND" input
+			(at 146.05 91.44 180)
+			(uuid "1f739187-b1e3-4a68-a5ca-907a0b1de0fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SDA" bidirectional
+			(at 157.48 101.6 270)
+			(uuid "d0879547-f3e6-451a-83b7-ecfd24ec5682")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Raspberry Pi HAT EEPROM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -471,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Wsprry_Pi_uHAT.kicad_pro",
+    "filename": "Raspberry Pi HAT EEPROM.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -654,44 +654,12 @@
       "Root"
     ],
     [
-      "9eea2a69-1310-4db0-a458-458091d05464",
-      "Wsprry Pi Controls"
-    ],
-    [
-      "4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10",
+      "6b22e560-1a25-41b6-8656-ff183b0e1117",
       "Raspberry Pi Header"
     ],
     [
-      "262a9111-a0c2-4bdb-b21f-e33adb0241de",
-      "Si5153 Chain"
-    ],
-    [
-      "42ba523c-9f36-4add-9ea4-d17afe81c991",
-      "TXCO"
-    ],
-    [
-      "24e78a99-bad3-4a7d-9156-152997ea8218",
-      "Clock"
-    ],
-    [
-      "29d1794b-5432-47ad-83ab-493e5f88d054",
-      "Edge Buffer"
-    ],
-    [
-      "34d137a9-e0e7-4525-8337-47b7217f2a7c",
-      "MMIC Gain"
-    ],
-    [
-      "4bdba0cb-f795-401c-82e8-8b243383d166",
-      "Pi Pad"
-    ],
-    [
-      "f38f140e-c11e-4e18-a4ba-4765c20e3250",
-      "Primary LPF"
-    ],
-    [
-      "348a86b3-f566-4596-afa1-7f1797b43cd4",
-      "HAT+ EEPROM"
+      "dd12af2d-310f-4190-9029-89b958d4c557",
+      "ID EEPROM"
     ]
   ],
   "text_variables": {}

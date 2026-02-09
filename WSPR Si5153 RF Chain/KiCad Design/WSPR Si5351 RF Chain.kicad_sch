@@ -1,0 +1,845 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ac78b79f-d9c0-46e3-b029-91bb1924b198")
+	(paper "A")
+	(title_block
+		(title "WSPR Si5351 RF Chain")
+		(date "2026-02-09")
+		(rev "0")
+		(company "Lee C. Bussy [AA0NT]")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27171c3f-5a7f-4d71-a89e-936d594a253f")
+	)
+	(wire
+		(pts
+			(xy 222.25 111.76) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f1a5a6-4f72-4395-aae8-d32c8e2a3e92")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3732e2c9-4b4f-4451-8176-60359f72f673")
+	)
+	(wire
+		(pts
+			(xy 67.31 121.92) (xy 67.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0750e4-768e-4900-8866-eeffe4e53041")
+	)
+	(wire
+		(pts
+			(xy 82.55 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbaad0e-9b39-43f0-a549-d349fae1e52e")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 222.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812cbd6f-29fc-4cb5-97d5-cc5f4d221b4b")
+	)
+	(wire
+		(pts
+			(xy 64.77 121.92) (xy 64.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bb5221-c378-4061-8d19-dbaca2969589")
+	)
+	(wire
+		(pts
+			(xy 158.75 111.76) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873856d9-2fe1-41b6-b7da-af8a37be3f47")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0bcb07-5ad7-4d79-a987-45c7c361a17a")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f50875-28f9-4654-bb61-6da76930397a")
+	)
+	(wire
+		(pts
+			(xy 69.85 101.6) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12cb19c-5525-4184-b68e-6a067d1dd455")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c415506b-7508-462c-a9fa-18ff5ee03827")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6394e2e-59d4-43f2-b90f-9e4ffe6ae630")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d874fa41-750e-4afb-8aec-1fe1f2892f2a")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbce6245-e652-4d63-8ac3-2641deb0830b")
+	)
+	(wire
+		(pts
+			(xy 88.9 109.22) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18e9283-0fe9-4e07-8724-8f170d19e457")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e192bb90-25c0-4842-b6af-9dee89d2df21")
+	)
+	(wire
+		(pts
+			(xy 222.25 109.22) (xy 223.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd4b7f7-4e9f-486d-be22-e9808bced1fe")
+	)
+	(hierarchical_label "RF_SLC"
+		(shape bidirectional)
+		(at 64.77 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b603ff0-b8fb-45ce-ac0f-e043e961197b")
+	)
+	(hierarchical_label "RF_OUT"
+		(shape output)
+		(at 223.52 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25508194-0636-4951-ae53-8107cd49301c")
+	)
+	(hierarchical_label "RF_3V3"
+		(shape input)
+		(at 90.17 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a447d55-8556-4493-b68d-19f41a084531")
+	)
+	(hierarchical_label "RF_GND"
+		(shape input)
+		(at 83.82 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d4b1f77-62a1-4080-9d2a-8f366a7be32d")
+	)
+	(hierarchical_label "RF_GND"
+		(shape input)
+		(at 160.02 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f472d4f-24d6-4110-b2a8-0a5aba803d53")
+	)
+	(hierarchical_label "RF_GND"
+		(shape input)
+		(at 191.77 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fe9cc72-2c79-4549-8723-78ff97b12e66")
+	)
+	(hierarchical_label "RF_GND"
+		(shape input)
+		(at 128.27 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "963bfccc-bef1-4958-a7a2-cbcbdfc3d7e0")
+	)
+	(hierarchical_label "RF_5V"
+		(shape input)
+		(at 128.27 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0a79caa-2a65-4ace-8bff-edadb5b5a45b")
+	)
+	(hierarchical_label "RF_SDA"
+		(shape bidirectional)
+		(at 67.31 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9316518-3dec-43d9-99ff-33da78b166bb")
+	)
+	(hierarchical_label "RF_5V"
+		(shape input)
+		(at 223.52 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af04a0f5-277c-4584-938c-63fe9c87cb49")
+	)
+	(hierarchical_label "RF_GND"
+		(shape input)
+		(at 90.17 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0d682dd-95c2-4c00-8e21-6b93b3b9f1fb")
+	)
+	(hierarchical_label "RF_3V3"
+		(shape input)
+		(at 83.82 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3995d10-b009-43c1-97d8-ffb608ef04d7")
+	)
+	(hierarchical_label "RF_GND"
+		(shape input)
+		(at 223.52 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5e1c08e-216a-41fe-8dfb-f7d59ca4e4c1")
+	)
+	(sheet
+		(at 63.5 101.6)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24e78a99-bad3-4a7d-9156-152997ea8218")
+		(property "Sheetname" "Clock"
+			(at 63.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../WSPR Si5153 RF Chain/Components/Si5351 Clock Generator Circuit/KiCad Design/Si5351 Clock Generator Circuit.kicad_sch"
+			(at 63.5 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CLOCK_OUT" output
+			(at 88.9 104.14 0)
+			(uuid "5b5aace4-d0dd-4710-bdf4-c31e7eaa37f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XTAL_IN" input
+			(at 69.85 101.6 90)
+			(uuid "34a95a65-675d-4c25-b9e2-0aca8c2f71a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLOCK_SDA" bidirectional
+			(at 67.31 120.65 270)
+			(uuid "5f85e924-7866-41c2-a874-5a486602b64a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLOCK_GND" input
+			(at 88.9 109.22 0)
+			(uuid "7cbd9360-5e7d-4a7d-b90b-cebe1ccc1cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLOCK_SCL" bidirectional
+			(at 64.77 120.65 270)
+			(uuid "626c7fc8-5338-4006-b494-8f148f5bb5b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLOCK_3V3" input
+			(at 88.9 111.76 0)
+			(uuid "dbddd827-dcba-4eb7-8813-1acdde48f482")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "WSPR Si5351 RF Chain"
+				(path "/ac78b79f-d9c0-46e3-b029-91bb1924b198"
+					(page "3")
+				)
+			)
+			(project ""
+				(path "/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "#")
+				)
+			)
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 101.6)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29d1794b-5432-47ad-83ab-493e5f88d054")
+		(property "Sheetname" "Edge Buffer"
+			(at 101.6 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../WSPR Si5153 RF Chain/Components/RF Conditioning Buffer/KiCad Design/RF Conditioning Buffer.kicad_sch"
+			(at 101.6 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CLK_IN" input
+			(at 101.6 104.14 180)
+			(uuid "7217e0b3-6543-47cb-9194-d75aa2b63468")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUFF_5V" input
+			(at 127 111.76 0)
+			(uuid "f33b7137-14ac-418e-8dc4-f23fe1dda77d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUFF_OUT" output
+			(at 127 104.14 0)
+			(uuid "da3d49b5-8efa-45b3-9d5a-1e84e3a17773")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUFF_GND" input
+			(at 127 109.22 0)
+			(uuid "f7430bee-9cc0-4e2e-8560-e551839c651f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 101.6)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34d137a9-e0e7-4525-8337-47b7217f2a7c")
+		(property "Sheetname" "MMIC Gain"
+			(at 203.2 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../WSPR Si5153 RF Chain/Components/Broadband MMIC Gain Block/KiCad Design/Broadband_MMIC_Gain_Block.kicad_sch"
+			(at 203.2 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MMIC_GND" input
+			(at 222.25 109.22 0)
+			(uuid "05e447f9-b315-42e0-8e5b-38bf385ccae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MMIC_5V" input
+			(at 222.25 111.76 0)
+			(uuid "0da313c5-28e9-4e8f-8d66-9fa378fa4e9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PLPF_IN" input
+			(at 203.2 104.14 180)
+			(uuid "8cfd4a13-97a6-44d6-b6c1-a0fc49c0f35f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MMIC_OUT" output
+			(at 222.25 106.68 0)
+			(uuid "7ec9d572-8bfe-4635-ace6-59c78d6ed446")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 82.55)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42ba523c-9f36-4add-9ea4-d17afe81c991")
+		(property "Sheetname" "TXCO"
+			(at 63.5 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../WSPR Si5153 RF Chain/Components/27 MHz TCXO Block/KiCad Design/27 MHz TCXO Block.kicad_sch"
+			(at 63.5 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "XTAL_3V3" input
+			(at 82.55 85.09 0)
+			(uuid "a0e6b662-23f5-49ca-adfb-0eb0794985e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XTAL_GND" input
+			(at 82.55 87.63 0)
+			(uuid "43e2a262-a852-4170-933f-bc75e38c5555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XTAL_OUT" output
+			(at 69.85 95.25 270)
+			(uuid "91154224-39e3-4b9d-998f-367b96315692")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "WSPR Si5351 RF Chain"
+				(path "/ac78b79f-d9c0-46e3-b029-91bb1924b198"
+					(page "2")
+				)
+			)
+			(project ""
+				(path "/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "#")
+				)
+			)
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 101.6)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bdba0cb-f795-401c-82e8-8b243383d166")
+		(property "Sheetname" "Pi Pad"
+			(at 139.7 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../WSPR Si5153 RF Chain/Components/6dB Pi Pad/KiCad Design/6dB Pad.kicad_sch"
+			(at 139.7 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PAD_OUT" output
+			(at 158.75 106.68 0)
+			(uuid "748b26a3-654e-4456-9609-a67ffd6bc1d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUFF_IN" input
+			(at 139.7 104.14 180)
+			(uuid "ce1758d0-5f69-4f78-87d5-8e0272f6f0cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PAD_GND" input
+			(at 158.75 111.76 0)
+			(uuid "fd87c4f8-0e9d-4302-ab10-0415db8ace02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 101.6)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f38f140e-c11e-4e18-a4ba-4765c20e3250")
+		(property "Sheetname" "Primary LPF"
+			(at 171.45 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../WSPR Si5153 RF Chain/Components/Primary LPF Block/KiCad Design/Primary_LPF.kicad_sch"
+			(at 171.45 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PAD_IN" input
+			(at 171.45 106.68 180)
+			(uuid "8ab10794-f900-4ea2-a881-22797f7d2b97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PLPF_OUT" output
+			(at 190.5 104.14 0)
+			(uuid "26db5417-6210-4ff8-b0c3-e8d07e4040cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PLPF_GND" output
+			(at 190.5 111.76 0)
+			(uuid "f13be06c-d5b8-4e6d-a6bb-f4d0363afe53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de"
+					(page "9")
+				)
+			)
+		)
+	)
+)
