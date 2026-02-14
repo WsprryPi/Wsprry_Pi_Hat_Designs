@@ -192,7 +192,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        1.0,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -674,24 +681,20 @@
       "Clock"
     ],
     [
-      "29d1794b-5432-47ad-83ab-493e5f88d054",
-      "Edge Buffer"
-    ],
-    [
       "34d137a9-e0e7-4525-8337-47b7217f2a7c",
       "MMIC Gain"
     ],
     [
       "4bdba0cb-f795-401c-82e8-8b243383d166",
-      "Pi Pad"
-    ],
-    [
-      "f38f140e-c11e-4e18-a4ba-4765c20e3250",
-      "Primary LPF"
+      "3dB Pi Pad"
     ],
     [
       "348a86b3-f566-4596-afa1-7f1797b43cd4",
       "HAT+ EEPROM"
+    ],
+    [
+      "3df92993-d002-4921-93dd-63acba18b064",
+      "Final PA"
     ]
   ],
   "text_variables": {}

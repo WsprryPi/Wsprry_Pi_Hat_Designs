@@ -59,7 +59,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|128697071|74771928|F.Cu|4|62656103-9509-4815-ab6f-2f4bc9b631bf|8f6408da-ccdb-41b6-8dbb-717b2b565bb1",
+          "3V3 pins 1 and 17 are tied internally on Raspberry Pi header"
+        ]
+      ],
       "meta": {
         "version": 2
       },

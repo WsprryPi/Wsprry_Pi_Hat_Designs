@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "Si5351 Clock Generator Circuit")
-		(date "2026-02-03")
+		(date "2026-02-14")
 		(rev "0")
 		(company "Lee C. Bussy [AA0NT]")
 	)
@@ -886,6 +886,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 119.38) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015b97c0-3597-4cfc-aabe-36462f02c4d8")
+	)
+	(wire
+		(pts
 			(xy 119.38 110.49) (xy 127 110.49)
 		)
 		(stroke
@@ -986,6 +996,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3ca99a-4c94-4e4c-987f-3d30b521f788")
+	)
+	(wire
+		(pts
 			(xy 142.24 91.44) (xy 143.51 91.44)
 		)
 		(stroke
@@ -1003,26 +1023,6 @@
 			(type default)
 		)
 		(uuid "6770db4d-f6a6-4105-a37c-bda913ba3204")
-	)
-	(wire
-		(pts
-			(xy 125.73 97.79) (xy 127 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d18cc9e-27e9-4df4-a75d-e6b122d5d9be")
-	)
-	(wire
-		(pts
-			(xy 139.7 118.11) (xy 139.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2a1915-b19a-4308-8093-79b52e2e72dd")
 	)
 	(wire
 		(pts
@@ -1254,7 +1254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01482306-dbd2-4b66-82ee-22982a253c09")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 120.65 116.84 0)
 			(effects
 				(font
@@ -1272,7 +1272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.396 118.364 90)
 			(effects
 				(font
@@ -1318,9 +1318,9 @@
 					(unit 1)
 				)
 			)
-			(project "WSPR Si5351 RF Chain"
+			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1351,7 +1351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 92.4052 0)
 			(effects
 				(font
@@ -1385,6 +1385,18 @@
 			(uuid "25199ce7-f4fd-46ac-ad1c-2867dc1ed59f")
 		)
 		(instances
+			(project "WSPR Si5351 RF Chain"
+				(path "/ac78b79f-d9c0-46e3-b029-91bb1924b198/24e78a99-bad3-4a7d-9156-152997ea8218"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Si5351 Clock Generator Circuit"
+				(path "/dfe3e9ed-5269-4fae-b6d1-95c9618d8979"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
 					(reference "C5")
@@ -1421,7 +1433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 140.462 81.28 90)
 			(effects
 				(font
@@ -1467,7 +1479,7 @@
 					(unit 1)
 				)
 			)
-			(project "WSPR Si5351 RF Chain"
+			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
 					(reference "FB2")
 					(unit 1)
@@ -1500,7 +1512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 151.13 90.4748 0)
 			(effects
 				(font
@@ -1546,7 +1558,7 @@
 					(unit 1)
 				)
 			)
-			(project "WSPR Si5351 RF Chain"
+			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
 					(reference "C7")
 					(unit 1)
@@ -1564,7 +1576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6f35fc-21ec-4bf0-be0d-f5416297fd37")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG07"
 			(at 139.7 89.535 0)
 			(effects
 				(font
@@ -1613,9 +1625,21 @@
 			(uuid "51355836-f229-4a93-84aa-6b9ab7dcef9b")
 		)
 		(instances
+			(project "WSPR Si5351 RF Chain"
+				(path "/ac78b79f-d9c0-46e3-b029-91bb1924b198/24e78a99-bad3-4a7d-9156-152997ea8218"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+			(project "Si5351 Clock Generator Circuit"
+				(path "/dfe3e9ed-5269-4fae-b6d1-95c9618d8979"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -1646,7 +1670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 151.13 85.3948 0)
 			(effects
 				(font
@@ -1692,7 +1716,7 @@
 					(unit 1)
 				)
 			)
-			(project "WSPR Si5351 RF Chain"
+			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
 					(reference "C6")
 					(unit 1)
@@ -1798,7 +1822,7 @@
 					(unit 1)
 				)
 			)
-			(project "WSPR Si5351 RF Chain"
+			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
 					(reference "Y2")
 					(unit 1)
@@ -1815,7 +1839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2a78e98-d7d6-484a-b87d-378e1e4fcbd3")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 126.746 116.84 0)
 			(effects
 				(font
@@ -1833,7 +1857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.746 118.364 90)
 			(effects
 				(font
@@ -1879,12 +1903,18 @@
 					(unit 1)
 				)
 			)
-			(project "WSPR Si5351 RF Chain"
+			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/262a9111-a0c2-4bdb-b21f-e33adb0241de/24e78a99-bad3-4a7d-9156-152997ea8218"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

@@ -2,183 +2,1108 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(uuid "423528f4-5d7e-4c01-a451-50617b6e6d07")
 	(paper "A")
 	(title_block
-		(title "Raspberry Pi µHAT")
-		(date "2026-02-09")
+		(title "Raspberry Pi HAT+ EEPROM")
+		(date "2026-02-14")
 		(rev "0")
 		(company "Lee C. Bussy [AA0NT]")
 	)
-	(lib_symbols)
-	(text "Additional pin functions:\nhttps://pinout.xyz/"
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Memory_EEPROM:24LC128"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "24LC128"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "I2C Serial EEPROM, 128Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C Serial EEPROM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm* TSSOP*4.4x3mm*P0.65mm* DFN*3x2mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "24LC128_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nBridging R3 pads (NP) enables write\nprotection.\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required."
 		(exclude_from_sim no)
-		(at 179.07 180.34 0)
+		(at 91.44 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f821f61c-6b6a-4864-ace3-a78a834a9305")
+		(uuid "be702d4b-f9c5-49f9-af55-0ecba7145aa0")
+	)
+	(junction
+		(at 156.21 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37dd90d6-44d6-44f6-8f8c-58c1cfbec373")
+	)
+	(junction
+		(at 167.64 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca6d4a5-914e-4b37-92ca-529d53aa46e2")
+	)
+	(junction
+		(at 168.91 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e2cf01f-b3cf-4eba-a61f-d9066520abf0")
+	)
+	(junction
+		(at 176.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68223237-7fbc-4fc8-b714-ccea4cde2657")
+	)
+	(junction
+		(at 168.91 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8235a8f3-849b-4b01-b5f4-4cc063a6e99c")
+	)
+	(junction
+		(at 176.53 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9722fc6-237c-429f-b806-da9aabf6f521")
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 111.76 91.44)
+			(xy 156.21 107.95) (xy 156.21 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12e81a1f-6f40-49b2-9fee-b48550879ece")
+		(uuid "038f9f37-fc17-409e-ba51-d1301e96c86d")
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 125.73 105.41)
+			(xy 156.21 87.63) (xy 168.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0a810a90-981f-4ac2-b9d4-6049701614a3")
+	)
+	(wire
+		(pts
+			(xy 176.53 88.9) (xy 176.53 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22648664-1591-4310-9fea-0061c6b90ee2")
+		(uuid "10e49aa1-de4e-4c16-a2d6-df770e3be8a1")
 	)
 	(wire
 		(pts
-			(xy 133.35 91.44) (xy 146.05 91.44)
+			(xy 176.53 100.33) (xy 185.42 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "254ba9c8-2681-4231-bcb1-45ea34371c45")
+		(uuid "19ff1278-46f6-4564-b6de-fa00aa400b5b")
 	)
 	(wire
 		(pts
-			(xy 121.92 106.68) (xy 157.48 106.68)
+			(xy 185.42 97.79) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34e9d38b-e49b-4074-9933-41785d1b5777")
+		(uuid "1afc6b24-5e95-4cbc-b5da-0b9bf6fe118f")
 	)
 	(wire
 		(pts
-			(xy 125.73 105.41) (xy 153.67 105.41)
+			(xy 176.53 96.52) (xy 176.53 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54a71f8d-3f0f-46f3-be7e-617b4b6ccc57")
+		(uuid "245b74f3-9e78-462d-8af4-5c450c59fd95")
 	)
 	(wire
 		(pts
-			(xy 157.48 101.6) (xy 157.48 106.68)
+			(xy 156.21 86.36) (xy 156.21 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6170610e-bb86-4443-8733-3a35fcb68438")
+		(uuid "31023f90-36f0-4425-8d51-298f0935dcb2")
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 114.3 91.44)
+			(xy 144.78 100.33) (xy 146.05 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d2fa551-ec60-42cb-97ee-66c46d607cbb")
+		(uuid "31598053-5410-4c33-a511-91980b1c8a67")
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 167.64 83.82)
+			(xy 168.91 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "342f1736-3d3e-45e4-8d34-dac732a7bd94")
+	)
+	(wire
+		(pts
+			(xy 156.21 81.28) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97617c86-d709-410b-be89-6fb637a16e9d")
+		(uuid "39102404-9832-4ed1-895e-ecf01273c178")
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 167.64 91.44)
+			(xy 144.78 102.87) (xy 146.05 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f670c3cf-e8c2-4199-b4f3-22b06900760d")
+		(uuid "4cde0ef3-c3e2-475b-816d-d769109a545d")
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 167.64 91.44)
+			(xy 166.37 102.87) (xy 167.64 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f882c7ac-4d37-46c6-aa43-4fdc528f5bdb")
+		(uuid "4d6f7476-8f57-4a04-86c8-0701bb0579ef")
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 153.67 105.41)
+			(xy 176.53 102.87) (xy 177.8 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8e51ff3-2a9e-4918-b9ec-6cbad19ee31d")
+		(uuid "51886314-f0d8-4786-a7ca-ddf635b65a0e")
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 121.92 106.68)
+			(xy 168.91 87.63) (xy 168.91 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "febceeaf-d9d9-4895-9c74-e1ddcdfda3fc")
+		(uuid "78e7ae22-4f79-477e-8a7e-e49c924ec874")
 	)
-	(sheet
-		(at 114.3 88.9)
-		(size 19.05 12.7)
+	(wire
+		(pts
+			(xy 156.21 87.63) (xy 156.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7e8515fe-40d7-45db-a4a4-7727e1f458f1")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1aedb00-d22b-49a0-89ee-8f1ed6ad29b1")
+	)
+	(wire
+		(pts
+			(xy 177.8 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ac3f03-4195-4d66-824f-9e5ad77a720c")
+	)
+	(wire
+		(pts
+			(xy 168.91 96.52) (xy 168.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa501753-05ac-4709-b875-e1f361b05e3b")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 168.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abba9a53-8839-4e78-b3e9-fa1d5dfd0eb7")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 167.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93537d3-9c95-40d2-9316-a1e5cf304094")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3ca389-e40a-4448-87b2-a0d1c811d01c")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 146.05 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10f9c19-2977-4902-8d5b-eacddb68688a")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa265ce4-7ad1-4131-865f-67a0079a2235")
+	)
+	(hierarchical_label "ID_3V3"
+		(shape input)
+		(at 177.8 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "014c8392-a19a-4cb6-b60b-b91e4adbd72c")
+	)
+	(hierarchical_label "ID_GND"
+		(shape input)
+		(at 156.21 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34a17384-97ca-4863-868a-18f80c235d32")
+	)
+	(hierarchical_label "ID_GND"
+		(shape input)
+		(at 144.78 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40a0fc29-0c10-40a8-976a-1e925594ba77")
+	)
+	(hierarchical_label "ID_GND"
+		(shape input)
+		(at 167.64 113.03 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5842d942-026d-4ad3-9b2c-5ab482a863f8")
+	)
+	(hierarchical_label "ID_SDA"
+		(shape bidirectional)
+		(at 185.42 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f481bd5-e3a1-4932-8508-58009ead0792")
+	)
+	(hierarchical_label "ID_GND"
+		(shape input)
+		(at 156.21 109.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96603214-b853-4c32-a153-585684eb1a7a")
+	)
+	(hierarchical_label "ID_SCL"
+		(shape bidirectional)
+		(at 185.42 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7d3ed21-e152-4846-af4a-68b7b538be7f")
+	)
+	(hierarchical_label "ID_3V3"
+		(shape input)
+		(at 177.8 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ceaecb03-9f95-4964-91ee-30e7873b1f0b")
+	)
+	(hierarchical_label "ID_GND"
+		(shape input)
+		(at 144.78 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d60871cb-3c5c-40cd-8c56-ac666e561bd2")
+	)
+	(hierarchical_label "ID_GND"
+		(shape input)
+		(at 144.78 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de71a389-4e40-43f2-a2ee-c0e41afbc3b5")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 168.91 92.71 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6b22e560-1a25-41b6-8656-ff183b0e1117")
-		(property "Sheetname" "Raspberry Pi Header"
-			(at 114.3 88.1884 0)
+		(uuid "02f15859-ecd0-45e2-9dc5-dbeb0a27ff25")
+		(property "Reference" "R12"
+			(at 170.688 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Sheetfile" "rpi_header.kicad_sch"
-			(at 114.3 102.1846 0)
+		(property "Value" "3.9K"
+			(at 170.688 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
-		(pin "GND" output
-			(at 133.35 91.44 0)
-			(uuid "d62fc103-6f52-45cc-ace5-b3fc685fd2ff")
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.926 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e568f928-e9e8-4306-b472-1909f2b1d811")
+		)
+		(pin "2"
+			(uuid "95e114e8-06bc-45fa-a845-4c586f6cd736")
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/348a86b3-f566-4596-afa1-7f1797b43cd4"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:24LC128")
+		(at 156.21 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09be756a-ed07-4c02-9a36-44d75b16dc77")
+		(property "Reference" "U2"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24LC128"
+			(at 156.718 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C Serial EEPROM, 128Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5d56b27-5f72-40bd-860d-a084b4477293")
+		)
+		(pin "2"
+			(uuid "d5e5b7aa-3ab4-4fcb-b384-185798f62af1")
+		)
+		(pin "3"
+			(uuid "dd9a1e0a-39f5-4689-97c7-761bd79a067f")
+		)
+		(pin "8"
+			(uuid "e340c33b-5b82-4fbe-8af8-5a93fdab209a")
+		)
+		(pin "4"
+			(uuid "941296dc-603b-4b6d-8a44-ac014684f44a")
+		)
+		(pin "5"
+			(uuid "15e50d08-4a62-4543-a1d0-a12ff3f031cf")
+		)
+		(pin "6"
+			(uuid "20278ec0-b3a3-4539-a295-911020e402b0")
+		)
+		(pin "7"
+			(uuid "890f6119-1a6c-49a9-9c9e-fa3727303781")
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/348a86b3-f566-4596-afa1-7f1797b43cd4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.21 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f7872a7-de47-41d5-a21f-9934102d3a5f")
+		(property "Reference" "C14"
+			(at 155.956 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,81 +1111,8 @@
 				(justify right)
 			)
 		)
-		(pin "ID_SCL" bidirectional
-			(at 125.73 101.6 270)
-			(uuid "8778a604-b65b-46bb-bc10-090b338bf2e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3V3" output
-			(at 114.3 91.44 180)
-			(uuid "ef30250d-fd3a-4461-9e12-01a5852a9fd5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ID_SDA" bidirectional
-			(at 121.92 101.6 270)
-			(uuid "ac1b86d9-49f3-4603-90f0-b9af78c94c2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Raspberry Pi HAT EEPROM"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 146.05 88.9)
-		(size 19.05 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dd12af2d-310f-4190-9029-89b958d4c557")
-		(property "Sheetname" "ID EEPROM"
-			(at 146.05 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "id_eeprom.kicad_sch"
-			(at 146.05 102.1846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ID_3V3" input
-			(at 165.1 91.44 0)
-			(uuid "3738c34c-be01-4295-adee-6c7dc9a505e7")
+		(property "Value" "100n"
+			(at 161.544 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,48 +1120,251 @@
 				(justify right)
 			)
 		)
-		(pin "ID_SCL" bidirectional
-			(at 153.67 101.6 270)
-			(uuid "00452c6b-7233-4afc-b67f-8897c2a372d3")
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(pin "ID_GND" input
-			(at 146.05 91.44 180)
-			(uuid "1f739187-b1e3-4a68-a5ca-907a0b1de0fb")
+		(property "Datasheet" "~"
+			(at 156.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(pin "ID_SDA" bidirectional
-			(at 157.48 101.6 270)
-			(uuid "d0879547-f3e6-451a-83b7-ecfd24ec5682")
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 156.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "e13b4ec0-0b1a-4833-a57f-adf38fe98aef")
+		)
+		(pin "2"
+			(uuid "9ff3840e-e443-49e8-9fe8-411a314c02cc")
 		)
 		(instances
-			(project "Raspberry Pi HAT EEPROM"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/348a86b3-f566-4596-afa1-7f1797b43cd4"
+					(reference "C14")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(symbol
+		(lib_id "Device:R_US")
+		(at 176.53 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40a8b108-aed4-471f-bac5-c003bc5aa3d7")
+		(property "Reference" "R14"
+			(at 178.308 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9K"
+			(at 178.308 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 177.546 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "314d99c9-afa0-4c27-af88-e64965f6ddd0")
+		)
+		(pin "2"
+			(uuid "447a2aa5-1704-4f71-a694-68c9402a5cae")
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/348a86b3-f566-4596-afa1-7f1797b43cd4"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(embedded_fonts no)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 167.64 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d5ccd0d-c5a7-41b9-af9d-13f8fb3bfc08")
+		(property "Reference" "R11"
+			(at 169.418 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 169.418 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.656 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f29e8eb-9c05-48e1-a80e-93d555288379")
+		)
+		(pin "2"
+			(uuid "715c2a11-6509-4700-8393-8ce59a585438")
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/348a86b3-f566-4596-afa1-7f1797b43cd4"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 172.72 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "6e4a5caf-432d-47c6-9d0e-d75e83a50283")
+		(property "Reference" "R13"
+			(at 169.418 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 176.53 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.974 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b988c882-07d8-416f-964f-6ab50f7a8312")
+		)
+		(pin "2"
+			(uuid "675fff03-4009-443e-b1f7-b8470b8a512a")
+		)
+		(instances
+			(project "Wsprry_Pi_uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/348a86b3-f566-4596-afa1-7f1797b43cd4"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

@@ -410,10 +410,6 @@
   },
   "sheets": [
     [
-      "ac78b79f-d9c0-46e3-b029-91bb1924b198",
-      "Root"
-    ],
-    [
       "42ba523c-9f36-4add-9ea4-d17afe81c991",
       "TXCO"
     ],
@@ -422,20 +418,20 @@
       "Clock"
     ],
     [
-      "54e7711d-9e8d-4f2c-9d67-85152dcb00bc",
-      "Edge Buffer"
+      "ac78b79f-d9c0-46e3-b029-91bb1924b198",
+      "Root"
     ],
     [
-      "b6b9f6f6-d750-43b8-a57e-209bc7b3cc1e",
-      "Pi Pad"
+      "4bdba0cb-f795-401c-82e8-8b243383d166",
+      "3dB Pi Pad"
     ],
     [
-      "6f82c541-2a2d-4e68-baac-9140a903976e",
-      "Primary LPF"
-    ],
-    [
-      "f0884519-7c53-4842-8ff7-eb52d8cea851",
+      "34d137a9-e0e7-4525-8337-47b7217f2a7c",
       "MMIC Gain"
+    ],
+    [
+      "3df92993-d002-4921-93dd-63acba18b064",
+      "Final PA"
     ]
   ],
   "text_variables": {}

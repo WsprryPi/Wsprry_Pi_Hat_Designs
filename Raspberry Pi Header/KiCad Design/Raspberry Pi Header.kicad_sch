@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "e25f10fb-597c-403a-b509-e995045ec1fe")
-	(paper "A4")
+	(paper "A")
+	(title_block
+		(title "Raspberry Pi Header")
+		(date "2026-02-14")
+		(rev "0")
+		(company "Lee C. Bussy [AA0NT]")
+	)
 	(lib_symbols
 		(symbol "Wsprry Pi µHAT+:Raspberry Pi Header"
 			(pin_names
@@ -1351,303 +1357,117 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 143.51 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13b8648a-f6ca-4d06-9113-b04e5a300b03")
-	)
-	(junction
-		(at 158.75 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a885eb4-9f1a-4472-a7af-22df2aff4fd7")
-	)
-	(junction
-		(at 158.75 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e684784-aa54-4383-9a77-8300fdfa027f")
-	)
-	(junction
-		(at 143.51 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b54aad6f-3286-4f0c-9fda-4f886d7827e6")
-	)
-	(junction
-		(at 143.51 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8c99af6-905a-4d92-99fe-d0d20ad59c23")
-	)
 	(no_connect
-		(at 157.48 100.33)
+		(at 143.51 100.33)
 		(uuid "024e5805-87fb-461a-b353-c973917c48af")
 	)
 	(no_connect
-		(at 157.48 92.71)
+		(at 143.51 92.71)
 		(uuid "082b5974-4021-4101-9688-c7a884bf1994")
 	)
 	(no_connect
-		(at 157.48 85.09)
+		(at 143.51 85.09)
 		(uuid "0a77b3ef-ceb7-41da-a2b9-88c6c0508133")
 	)
 	(no_connect
-		(at 157.48 82.55)
+		(at 143.51 82.55)
 		(uuid "0e645a6a-877c-49fa-b366-4f5ca5fdbc77")
 	)
 	(no_connect
-		(at 144.78 90.17)
+		(at 130.81 90.17)
 		(uuid "1201cd35-f6f7-4b86-84f7-48bba3bf8b1c")
 	)
 	(no_connect
-		(at 144.78 95.25)
-		(uuid "19686689-eed1-440d-a30f-750ca164d200")
-	)
-	(no_connect
-		(at 144.78 102.87)
+		(at 130.81 102.87)
 		(uuid "1e21e088-1a6d-4d9a-9f48-152202a335be")
 	)
 	(no_connect
-		(at 157.48 110.49)
+		(at 143.51 110.49)
 		(uuid "2ba20286-ac8b-413b-ad2c-61c765a88360")
 	)
 	(no_connect
-		(at 157.48 113.03)
+		(at 143.51 113.03)
 		(uuid "2c1cb4a3-8eba-4df6-b72c-0efe1fb9f0c1")
 	)
 	(no_connect
-		(at 157.48 80.01)
+		(at 143.51 80.01)
 		(uuid "2d67b36a-f765-4907-af4b-d89b237e233c")
 	)
 	(no_connect
-		(at 144.78 92.71)
+		(at 130.81 92.71)
 		(uuid "342f0363-da28-49ed-af90-107a10ceddcb")
 	)
 	(no_connect
-		(at 157.48 105.41)
+		(at 143.51 105.41)
 		(uuid "36484e1a-a840-408f-8d44-36e657e55388")
 	)
 	(no_connect
-		(at 157.48 120.65)
+		(at 143.51 120.65)
 		(uuid "41a80870-5be2-4215-9403-97b4d714db3a")
 	)
 	(no_connect
-		(at 144.78 113.03)
+		(at 130.81 113.03)
 		(uuid "4c1dfccb-e31d-447b-b337-d7d623b7b2f2")
 	)
 	(no_connect
-		(at 157.48 90.17)
+		(at 143.51 90.17)
 		(uuid "586eaab7-a81f-42fe-bf8e-3cf9c0415bcf")
 	)
 	(no_connect
-		(at 144.78 82.55)
+		(at 130.81 82.55)
 		(uuid "5a84a112-72a6-425a-bb14-ea6143359e69")
 	)
 	(no_connect
-		(at 144.78 110.49)
+		(at 130.81 110.49)
 		(uuid "7e3682f1-b715-4dab-9802-3500c9a9e26b")
 	)
 	(no_connect
-		(at 157.48 95.25)
+		(at 143.51 95.25)
 		(uuid "80145276-806b-4de3-ac00-9cd54f55cc61")
 	)
 	(no_connect
-		(at 157.48 118.11)
+		(at 143.51 118.11)
 		(uuid "8ebdd873-c7a9-48bb-9d25-7c5905c64645")
 	)
 	(no_connect
-		(at 144.78 115.57)
+		(at 130.81 115.57)
 		(uuid "96200ca0-50c4-45a2-9c56-385569bc234d")
 	)
 	(no_connect
-		(at 157.48 123.19)
+		(at 143.51 123.19)
 		(uuid "969f661c-13d5-4006-80c6-d1d249dd7450")
 	)
 	(no_connect
-		(at 157.48 115.57)
+		(at 143.51 115.57)
 		(uuid "a5248b98-0efb-4f9a-98ea-d7a90684cbb4")
 	)
 	(no_connect
-		(at 144.78 100.33)
+		(at 130.81 100.33)
 		(uuid "c3ebd542-caa8-44d4-82bd-434b0e2a2b99")
 	)
 	(no_connect
-		(at 157.48 97.79)
+		(at 143.51 97.79)
 		(uuid "c70e67f9-5a3f-445b-99be-a36e7b67d07f")
 	)
 	(no_connect
-		(at 144.78 85.09)
-		(uuid "cfa68fa4-cf5e-447b-844c-a56f1e9fc58b")
-	)
-	(no_connect
-		(at 144.78 97.79)
+		(at 130.81 97.79)
 		(uuid "d1fd592b-dc54-4f45-b5fc-394ab723bd9d")
 	)
 	(no_connect
-		(at 144.78 120.65)
+		(at 130.81 120.65)
 		(uuid "d91e6b6e-12f4-4ca4-84a3-be09aa2473b7")
 	)
 	(no_connect
-		(at 144.78 105.41)
-		(uuid "e6cf14fe-dc32-4858-9fe0-e09c11d18792")
-	)
-	(no_connect
-		(at 144.78 87.63)
+		(at 130.81 87.63)
 		(uuid "f6920fd4-8187-41ae-ade4-bdacfc2c0170")
 	)
 	(no_connect
-		(at 157.48 102.87)
+		(at 143.51 102.87)
 		(uuid "f950dbc4-bd3b-421a-8e82-873bbccad5d0")
-	)
-	(no_connect
-		(at 157.48 77.47)
-		(uuid "f9f0d225-0b66-4870-bcfc-7ffecf60ffc9")
-	)
-	(wire
-		(pts
-			(xy 157.48 87.63) (xy 158.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15dbb126-d452-4025-95cc-d006864bb950")
-	)
-	(wire
-		(pts
-			(xy 142.24 107.95) (xy 144.78 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a966dc-14b9-4663-b485-2a856b0290a6")
-	)
-	(wire
-		(pts
-			(xy 157.48 107.95) (xy 160.02 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43fbf774-d67b-4a97-8749-a6544849447a")
-	)
-	(wire
-		(pts
-			(xy 143.51 74.93) (xy 144.78 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c135b8-ea6c-4a99-8af6-6b1f9060ad1c")
-	)
-	(wire
-		(pts
-			(xy 142.24 123.19) (xy 143.51 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c47463b-faf3-4127-b979-9fbbec98e6f6")
-	)
-	(wire
-		(pts
-			(xy 143.51 123.19) (xy 144.78 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78a2ce76-b285-4673-994d-8ed0c4f1796e")
-	)
-	(wire
-		(pts
-			(xy 144.78 118.11) (xy 143.51 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c05cade-1d77-45ce-9916-5860a20fa23f")
-	)
-	(wire
-		(pts
-			(xy 142.24 74.93) (xy 143.51 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "914b87c9-c65e-4449-87b2-acedfcaf8664")
-	)
-	(wire
-		(pts
-			(xy 143.51 118.11) (xy 142.24 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94fd8d09-2633-4427-a344-5d95e0880c3b")
-	)
-	(wire
-		(pts
-			(xy 158.75 87.63) (xy 160.02 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a33fc01-8696-46b1-88a9-5601a92f3fd1")
-	)
-	(wire
-		(pts
-			(xy 157.48 74.93) (xy 158.75 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd29e90-071b-4618-96d4-7e690c396d17")
-	)
-	(wire
-		(pts
-			(xy 160.02 74.93) (xy 158.75 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e7656d-db45-449c-82c4-41354c01027c")
-	)
-	(wire
-		(pts
-			(xy 142.24 77.47) (xy 144.78 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc71987a-ea1a-472e-87cd-ff6a3087f670")
-	)
-	(wire
-		(pts
-			(xy 142.24 80.01) (xy 144.78 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0bcd51c-06c6-4c13-9616-b6212ab9bc91")
 	)
 	(hierarchical_label "PI_TXLED"
 		(shape output)
-		(at 160.02 87.63 0)
+		(at 143.51 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,7 +1478,7 @@
 	)
 	(hierarchical_label "PI_5V"
 		(shape output)
-		(at 160.02 74.93 0)
+		(at 143.51 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1669,7 +1489,7 @@
 	)
 	(hierarchical_label "PI_3V3"
 		(shape output)
-		(at 142.24 74.93 180)
+		(at 130.81 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1678,9 +1498,31 @@
 		)
 		(uuid "2b2d4b34-9a03-4ea7-80ac-ced08572e58f")
 	)
+	(hierarchical_label "PI_5V"
+		(shape output)
+		(at 143.51 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3eb635c8-87d0-4209-8c16-e9b4f88768ec")
+	)
+	(hierarchical_label "PI_GND"
+		(shape output)
+		(at 130.81 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "487b2efc-503a-4ff6-b9eb-9bb32a86f6bd")
+	)
 	(hierarchical_label "PI_IDSDA"
 		(shape bidirectional)
-		(at 142.24 107.95 180)
+		(at 130.81 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1691,7 +1533,7 @@
 	)
 	(hierarchical_label "PI_SDA"
 		(shape bidirectional)
-		(at 142.24 77.47 180)
+		(at 130.81 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1700,9 +1542,42 @@
 		)
 		(uuid "6fc65fb1-8b46-4c3c-83f6-77d96bb29c3e")
 	)
+	(hierarchical_label "PI_GND"
+		(shape output)
+		(at 130.81 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b2528e0-5323-4f6e-8c3d-9672744f588a")
+	)
+	(hierarchical_label "PI_3V3"
+		(shape output)
+		(at 130.81 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bf8508b-d123-4cf8-ad1b-02ae1aa1988f")
+	)
+	(hierarchical_label "PI_GND"
+		(shape output)
+		(at 130.81 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d35c321-90c1-40a1-82e5-6a1bcc67b5bd")
+	)
 	(hierarchical_label "PI_SCL"
 		(shape bidirectional)
-		(at 142.24 80.01 180)
+		(at 130.81 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1711,20 +1586,9 @@
 		)
 		(uuid "9e7e658b-3862-4ae7-8d81-337eb3801191")
 	)
-	(hierarchical_label "PI_GND"
-		(shape output)
-		(at 142.24 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b63d44d0-9c1d-46ac-a38a-1ec8f769a291")
-	)
 	(hierarchical_label "PI_SHUTDOWN"
 		(shape output)
-		(at 142.24 118.11 180)
+		(at 130.81 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1735,7 +1599,7 @@
 	)
 	(hierarchical_label "PI_IDSCL"
 		(shape bidirectional)
-		(at 160.02 107.95 0)
+		(at 143.51 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1746,7 +1610,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 158.75 87.63 0)
+		(at 143.51 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1754,8 +1618,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1912d2b9-a49d-41cb-83c4-5a302ee8d706")
-		(property "Reference" "#FLG03"
-			(at 158.75 85.725 0)
+		(property "Reference" "#FLG05"
+			(at 143.51 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1628,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 158.75 82.55 0)
+			(at 143.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 87.63 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 87.63 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +1655,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 158.75 87.63 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,9 +1667,15 @@
 			(uuid "d7c127d7-6c00-4c2f-9add-789d2cf86f89")
 		)
 		(instances
+			(project "Raspberry Pi Header"
+				(path "/e25f10fb-597c-403a-b509-e995045ec1fe"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -1813,7 +1683,7 @@
 	)
 	(symbol
 		(lib_id "Wsprry Pi µHAT+:Raspberry Pi Header")
-		(at 149.86 97.79 0)
+		(at 135.89 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1821,7 +1691,7 @@
 		(dnp no)
 		(uuid "1eb06044-65d5-4479-86a6-52c0be050269")
 		(property "Reference" "J1"
-			(at 151.13 72.136 0)
+			(at 137.16 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,15 +1699,15 @@
 			)
 		)
 		(property "Value" "Raspberry Pi Header"
-			(at 150.876 69.342 0)
+			(at 136.906 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 97.79 0)
+		(property "Footprint" "Wsprry Pi µHAT+:PinSocket_2x20_P2.54mm_Vertical"
+			(at 135.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 97.79 0)
+			(at 135.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1725,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 97.79 0)
+			(at 135.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1860,7 @@
 					(unit 1)
 				)
 			)
-			(project "Raspberry Pi Header"
+			(project "Wsprry_Pi_uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10"
 					(reference "J1")
 					(unit 1)
@@ -2000,7 +1870,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 143.51 123.19 0)
+		(at 130.81 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2008,8 +1878,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "256177dd-bc7c-4e4d-bc9d-eb457ada498a")
-		(property "Reference" "#FLG06"
-			(at 143.51 121.285 0)
+		(property "Reference" "#FLG03"
+			(at 130.81 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +1888,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 143.51 118.11 0)
+			(at 130.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +1897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 123.19 0)
+			(at 130.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +1906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 123.19 0)
+			(at 130.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +1915,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 143.51 123.19 0)
+			(at 130.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,9 +1927,88 @@
 			(uuid "1e97f00b-0d5c-4ad7-a9eb-6a366525812d")
 		)
 		(instances
+			(project "Raspberry Pi Header"
+				(path "/e25f10fb-597c-403a-b509-e995045ec1fe"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10"
-					(reference "#FLG06")
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 130.81 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65d5cb80-40a9-4ce5-a4cf-82d535096ecd")
+		(property "Reference" "#FLG01"
+			(at 130.81 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 130.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7c127d7-6c00-4c2f-9add-789d2cf86f8a")
+		)
+		(instances
+			(project "Raspberry Pi Header"
+				(path "/e25f10fb-597c-403a-b509-e995045ec1fe"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2074,8 +2023,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65d5cb80-40a9-4ce5-a4cf-82d535096ecd")
-		(property "Reference" "#FLG01"
+		(uuid "75394796-5ace-46d0-bc40-c453ed09fd5c")
+		(property "Reference" "#FLG04"
 			(at 143.51 73.025 0)
 			(effects
 				(font
@@ -2121,79 +2070,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7c127d7-6c00-4c2f-9add-789d2cf86f8a")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 158.75 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75394796-5ace-46d0-bc40-c453ed09fd5c")
-		(property "Reference" "#FLG02"
-			(at 158.75 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 158.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 158.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
 			(uuid "d7c127d7-6c00-4c2f-9add-789d2cf86f8b")
 		)
 		(instances
+			(project "Raspberry Pi Header"
+				(path "/e25f10fb-597c-403a-b509-e995045ec1fe"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -2201,7 +2089,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 143.51 118.11 0)
+		(at 130.81 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,8 +2097,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95affa8-cc08-4a91-90c1-5917389d2ec3")
-		(property "Reference" "#FLG05"
-			(at 143.51 116.205 0)
+		(property "Reference" "#FLG02"
+			(at 130.81 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2107,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 143.51 113.03 0)
+			(at 130.81 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2134,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 143.51 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,12 +2146,24 @@
 			(uuid "1e97f00b-0d5c-4ad7-a9eb-6a366525812e")
 		)
 		(instances
+			(project "Raspberry Pi Header"
+				(path "/e25f10fb-597c-403a-b509-e995045ec1fe"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b6e1faa-dbe8-4511-ba5e-d7b9c7e97e10"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
